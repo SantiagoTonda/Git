@@ -1,0 +1,14 @@
+body{
+    background-color:blueviolet;
+}
+
+.header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#linkedin{
+    margin-right: 12px;
+    height: 50px;
+}
