@@ -1,2 +1,2 @@
 # Portfolio-FrontEnd
-Repositorio del frontend **del** portfolio creado para el curso "#YoProgramo"
+Repositorio del frontend **del** portfoliodsa creado para el curso "#YoProgramo"
