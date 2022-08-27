@@ -1,9 +1,10 @@
 body{
-    background-color:crimson;
+    background-color:black;
 }
 
 .header{
-    background-color: darkorange;
+    background-color: lightblue;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,8 +16,17 @@ body{
 }
 
 .header2{
-    background-color: aquamarine;
+    background-color: white;
+    height: 90px;
     align-items: center;
-    justify-content:last baseline;
+    justify-content:center;
     display: flex;
+}
+
+.header3{
+    background-color: lightblue;
+    height: 110px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
