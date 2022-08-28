@@ -1,8 +1,21 @@
 body{
-    background-color:black;
+    border: 2px solid yellow;
+    background: #000 url(background.png) no-repeat top scroll;
+    background-size: cover;
+  /*background-color: black;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;*/
+}
+
+h1{
+    color:orange;
+    font-family: cursive;
 }
 
 .header{
+    border: 2px solid yellow;
     background-color: lightblue;
     height: 110px;
     display: flex;
@@ -12,18 +25,21 @@ body{
 
 #linkedin{
     margin-right: 12px;
-    height: 50px;
+    height: 50px; /*Llevar estas dos imágenes a la derecha*/
 }
 
 .header2{
-    background-color: white;
+    border: 2px solid yellow;
+    background-color: white;;
     height: 90px;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     display: flex;
 }
 
 .header3{
+    border: 2px solid yellow;
+    color: blue;
     background-color: lightblue;
     height: 110px;
     justify-content: center;
