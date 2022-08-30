@@ -27,6 +27,12 @@ h1{
 #linkedin{
     margin-right: 12px;
     height: 50px; /*Llevar estas dos imágenes a la derecha*/
+    justify-content: flex-start;
+}
+
+#face{
+    margin-right: 10px;
+    height: 50px;
 }
 
 .header2{
