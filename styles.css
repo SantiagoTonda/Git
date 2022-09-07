@@ -1,12 +1,12 @@
 body{
     border: 2px dotted yellow;
     background: #000 url(background.png) no-repeat top scroll;
-    background-size: cover;
   /*background-color: black;
     background-image: url(background.png);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: scroll;*/
+    background-size: cover;
 }
 
 h1{
