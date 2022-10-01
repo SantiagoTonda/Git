@@ -1,60 +1,39 @@
-body{
-    border: 2px dotted yellow;
-    background: #000 url(background.png) no-repeat top scroll;
-  /*background-color: black;
-    background-image: url(background.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: scroll;*/
+body {
+    background-color: #212529;
+    color: #fff;
+}
+
+.socials {
+    width: 2em;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login {
+    margin-left: 15px;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(https://i.picsum.photos/id/210/1390/500.jpg?hmac=gW1szSSCb4rt8FPm5W5OBphFJ-rmv4pN5i3ibirfhqc);
     background-size: cover;
 }
 
-h1{
-    color:orange;
-    font-family: cursive;
+.perfil{
+    position: absolute ;
+    background-image: url(perfil.png);
+    background-position: 50%;
+    background-size: 350px 450px;
+    margin-top: 360px;
+    margin-left: 1em;   
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid black;
+    /*probar clip path circle*/
 }
 
-.header{
-    border: 2px dotted black;
-    border-radius: 10px;
-    background-color: lightblue;
-    height: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#linkedin{
-    margin-right: 12px;
-    height: 50px; /*Llevar estas dos imágenes a la derecha*/
-    justify-content: flex-start;
-}
-
-#face{
-    margin-right: 10px;
-    height: 50px;
-}
-
-.header2{
-    border: 10px dotted;
-    border-color: yellow blue green;
-    background-color: white;;
-    height: 90px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.header3{
-    border: 2px dotted black;
-    color: blue;
-    background-color: lightblue;
-    height: 110px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-a{
-    
+.about{
+    margin-top: 170px;
 }
