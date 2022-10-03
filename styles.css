@@ -1,39 +1,58 @@
 body {
     background-color: #212529;
     color: #fff;
-}
-
-.socials {
+  }
+  
+  .socials {
     width: 2em;
     float: right;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.login {
+  }
+  
+  .login {
     margin-left: 15px;
-}
-
-.banner{
+  }
+  
+  .banner {
     height: 500px;
     background-image: url(https://i.picsum.photos/id/210/1390/500.jpg?hmac=gW1szSSCb4rt8FPm5W5OBphFJ-rmv4pN5i3ibirfhqc);
     background-size: cover;
-}
-
-.perfil{
-    position: absolute ;
-    background-image: url(perfil.png);
-    background-position: 50%;
-    background-size: 350px 450px;
-    margin-top: 360px;
-    margin-left: 1em;   
+  }
+  
+  .perfil {
     width: 300px;
     height: 300px;
     border-radius: 100%;
-    border: 2px solid black;
+    border: 4px solid black;
+    margin-bottom: 10px;
     /*probar clip path circle*/
-}
+  }
+  
+  .mt1 {
+    margin-top: 360px;
+  }
 
-.about{
-    margin-top: 170px;
-}
+  @media screen and (min-width: 768px) {
+    .mt2 {
+        margin-top: 660px;
+      }    
+  }
+
+  #exp-image {
+    width: 200px;
+    padding: 4.313% 0;
+  }
+
+  .fecha-exp {
+    color: #000;
+  }
+
+  .img-edu {
+    width: 200px;
+    height: 200px;
+  }
+
+  #proyecto-personal {
+    padding: 11.636% 0;
+  }
