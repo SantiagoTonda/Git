@@ -1,58 +1,101 @@
 body {
-    background-color: #212529;
-    color: #fff;
-  }
-  
+  background-image: linear-gradient(to right, #212529 25%, #004736, #212529 75%);
+  color: #fff;
+}
+
+.socials {
+  width: 2em;
+  float: right;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media screen and (min-width: 310px) {
   .socials {
-    width: 2em;
-    float: right;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 5px;  
   }
-  
-  .login {
-    margin-left: 15px;
-  }
-  
-  .banner {
-    height: 500px;
-    background-image: url(https://i.picsum.photos/id/210/1390/500.jpg?hmac=gW1szSSCb4rt8FPm5W5OBphFJ-rmv4pN5i3ibirfhqc);
-    background-size: cover;
-  }
-  
-  .perfil {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    border: 4px solid black;
-    margin-bottom: 10px;
-    /*probar clip path circle*/
-  }
-  
-  .mt1 {
-    margin-top: 360px;
+}
+
+.login {
+  margin-left: 15px;
+}
+
+.banner {
+  height: 500px;
+  background-image: url(https://i.picsum.photos/id/210/1390/500.jpg?hmac=gW1szSSCb4rt8FPm5W5OBphFJ-rmv4pN5i3ibirfhqc);
+  background-size: cover;
+}
+
+.perfil {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 4px solid black;
+  margin-bottom: 10px;
+  /*probar clip path circle*/
+}
+
+.mt1 {
+  margin-top: 360px;
+}
+
+.radius-start {
+  border-radius: 20px 20px 0 0;
+}
+
+.radius-end {
+  border-radius: 0 0 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .mt2 {
+      margin-top: 660px;
+    }
+
+  .info {
+      margin: 0px 20px;
+    }
+
+  .radius-start {
+      border-radius: 20px 0px 0px 20px;
+    }
+
+  .radius-end {
+      border-radius: 0px 20px 20px 0px;
+    }
+
+  .skills {
+    margin: 0px 20px;
+    }
+
+  .proyectos {
+    margin: 0px 20px;
+    }
   }
 
-  @media screen and (min-width: 768px) {
-    .mt2 {
-        margin-top: 660px;
-      }    
-  }
+#exp-image {
+  width: 200px;
+}
 
-  #exp-image {
-    width: 200px;
-    padding: 4.313% 0;
-  }
+.fecha-exp {
+  color: #999;
+}
 
-  .fecha-exp {
-    color: #000;
-  }
+.img-edu {
+  width: 200px;
+  height: 200px;
+  padding: 2%;
+}
 
-  .img-edu {
-    width: 200px;
-    height: 200px;
-  }
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  #proyecto-personal {
-    padding: 11.636% 0;
-  }
+.centrar2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
